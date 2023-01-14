@@ -1,3 +1,51 @@
 .main-container{
-  border: 1px solid black;
+  
 }
+.header{
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.item {
+  width: 250px;
+  height: 350px;
+ 
+  padding: 30px 5px;
+  text-align: left;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  border-radius: 20px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.interest {
+  width: 80px;
+  
+}
+
+.chat {
+  width: 80px;
+
+}
+
+.card-count {
+  display: inline-block;
+  margin: auto;
+  color: grey;
+}
+.card-content {
+  margin: 20px 0;
+  
+
+}
+
+div:nth-child(2) {margin: 10px 0;}

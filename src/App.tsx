@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Routes  ,Route } from 'react-router-dom';
 import Main from './pages/main/Main';
-import Detail from './pages/Detail';
+import Detail from './pages/detail/Detail';
 
 
 function App() {

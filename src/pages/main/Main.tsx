@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div className='main-container'>
       <Header/>
-      <div className='flex flex-column justify-center align-center' >
+      <div className='flex flex-row justify-center align-center' >
       {datas.map((data,idx)=><Card data={data} key={"card"+idx}/>)}
       </div>
 

@@ -9,11 +9,11 @@
 }
 
 .item {
-  width: 250px;
+  width: 200px;
   height: 350px;
- 
-  padding: 30px 5px;
+  /* padding: 30px 5px; */
   text-align: left;
+  margin: 20px;
 }
 
 .photo {
@@ -21,10 +21,13 @@
   height: 200px;
   background-size: contain;
   border-radius: 20px;
+
 }
 
 .price {
+  font-size: 15px;;
   font-weight: bold;
+  margin: 0 0 4px;
 }
 
 .interest {
@@ -41,11 +44,28 @@
   display: inline-block;
   margin: auto;
   color: grey;
+  font-size: 13px;
+  margin: 0 0 4px;
 }
 .card-content {
-  margin: 20px 0;
   
+  
+  
+}
+
+.title {
+  width: 200px;
+  font-weight: normal;
+  font-size: 16px;
+  
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 
 }
 
-div:nth-child(2) {margin: 10px 0;}
+.address {
+  font-size: 13px;
+  margin: 0 0 4px;
+}

@@ -13,14 +13,14 @@ interface IPros{
 
 const Card:React.FC<IPros> = ({data}) => {
 
-  const {title} =data.contents
-console.log(title)
-let newTitle
-if(title.length>14){
-   newTitle=title.substring(0,14)+"..."
-}else{
-   newTitle=title
-}
+//   const {title} =data.contents
+// console.log(title)
+// let newTitle
+// if(title.length>14){
+//    newTitle=title.substring(0,14)+"..."
+// }else{
+//    newTitle=title
+// }
 
 
   return (
@@ -28,7 +28,7 @@ if(title.length>14){
       <img className='photo' src={data.contents.url}></img>
 
       <div className='card-content'>
-        <div className='title'>{newTitle}</div>
+        <h2 className='title'>{data.contents.title}</h2>
         <div className='price'>{data.contents.price}</div>
         <div className='address'>{data.user.address}</div>
 

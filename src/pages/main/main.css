@@ -1,12 +1,12 @@
 .main-container{
+  width: 90%;
+  
+  margin-left: 50px;
+
+  
   
 }
-.header{
-  position:fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
+
 
 .item {
   width: 200px;

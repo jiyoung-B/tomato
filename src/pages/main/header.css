@@ -1,0 +1,64 @@
+
+.nav { 
+  background: white;
+  position: fixed;
+  top: 0;
+ 
+  left: 20px;
+  right: 0;
+  
+  width: 90%;
+  margin-left: 30px;
+
+
+}
+.img {height: 40px; padding-top: 5px;}
+.header{
+  float: left;
+  width: 15%;
+  text-align: right;
+  
+  
+  padding-top: 20px;
+  margin-top: 10px;
+  padding: 0;
+
+  
+}
+.navList { padding-top: 10px; height: 50px; width:50%;  float: left;  }
+.navList li { font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+  float: left;
+  display: flex;
+  margin: -15px 20px 0 5px;
+  padding: 10px 10px;
+  
+  
+  }
+  
+  .navList li a:link { color: black; text-decoration: none; font-weight: bold; }
+  .navList li a:visited { color: black; }
+  .navList li a:hover { color: black; opacity: 0.5;  }
+  .navList li a:active { color: orange; }
+
+.navInput { text-align: left; float: left; width: 30%; height: 50px; padding: 0 20px 30px 0; margin-top: 0; }
+.inputBox {background: rgb(241, 238, 238);
+    width: 300px; height: 50px; 
+    border: none;
+    border-radius: 8px;
+    margin: 0 10px;
+    padding-left: 15px;
+    box-sizing: border-box; }
+.navChat { height: 50px; margin: 10px 0; 
+  font-weight: bold;
+  font-size: 16px; 
+  background: rgb(252, 251, 251);
+  border: 1px solid lightgrey;
+  border-radius: 8px; 
+  padding: -0 15px;
+  box-sizing: border-box;}
+
+.search { vertical-align: middle; }
+
+.clear { content: ""; display: block; clear: both;}

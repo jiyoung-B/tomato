@@ -1,6 +1,7 @@
 import React from 'react'
 import datas from '../main/datas/data'
 
+
 const Detail = () => {
   const data=datas[0]
   return (
